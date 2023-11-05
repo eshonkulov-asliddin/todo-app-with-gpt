@@ -15,6 +15,16 @@ This is a simple Todo application built with ChatGPT. It allows users to manage 
 - Gradle
 - SonarQube (optional)
 
+## Configuration
+
+Before running the application, you need to configure your database settings. Open the `application.properties` file and set the following properties:
+
+```properties
+spring.datasource.url=your_database_url
+spring.datasource.username=your_database_username
+spring.datasource.password=your_database_password
+```
+
 ## Running the Application
 
 1. Clone the repository:
