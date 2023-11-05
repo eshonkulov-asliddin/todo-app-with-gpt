@@ -1,0 +1,13 @@
+package com.example.todowithgpt;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TodoWithGptApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(TodoWithGptApplication.class, args);
+    }
+
+}
